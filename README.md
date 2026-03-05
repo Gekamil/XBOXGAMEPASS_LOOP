@@ -1,5 +1,5 @@
 # XBOXGAMEPASS_LOOP
-A bot designed to update the subscription to the Gamepass monthly.
+A bot designed to update the subscription to the Gamepass monthly. Designed by IA
 
 
 Bienvenido a Xbox Auto Loop.
