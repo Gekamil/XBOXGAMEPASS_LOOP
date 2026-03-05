@@ -1,0 +1,19 @@
+{
+  "name": "gamepass-loop-bot",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "setup": "npm install && npx patchright install chromium",
+    "save-session": "npx ts-node src/auth/save_session.ts",
+    "audit": "npx ts-node src/index.ts"
+  },
+  "dependencies": {
+    "fingerprint-generator": "^2.1.79",
+    "fingerprint-injector": "^2.1.79",
+    "ghost-cursor-playwright-port": "^1.4.3",
+    "node-telegram-bot-api": "^0.67.0",
+    "patchright": "^1.57.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
